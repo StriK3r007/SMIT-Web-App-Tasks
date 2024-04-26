@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 30px;
+    width: 900px;
+}
+
+.pd {
+    margin: 25px 0px 0px 30px;
+}
+
+h3 {
+    margin: 20px 0px 0px 20px;
+}
+
+.edu {
+    margin: 10px 0px 0px 30px;
+}
