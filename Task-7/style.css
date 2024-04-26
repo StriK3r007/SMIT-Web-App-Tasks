@@ -1,0 +1,142 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff00;
+    background-blend-mode: overlay;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container div ul {
+    list-style: none;
+}
+
+.container div ul li {
+    width: 50px;
+    padding: 12px;
+    margin: 0px 8px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 10px 5px 15px rgba(10, 10, 10, 0.2) inset;
+
+}
+
+.container div ul li a {
+    color: white;
+    display: block;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.container div ul li:hover {
+    background-color: rgb(212, 0, 0);
+    box-shadow: 2px 2px 15px rgba(85, 85, 85, 0.559);
+}
+
+.row-0 ul li {
+    margin: 0px 12px !important;
+}
+
+.row-0,
+.row-1,
+.row-2,
+.row-3 {
+    padding: 8px 0px;
+}
+
+/* section */
+main section div {
+    height: 100vh;
+}
+
+main section>div:nth-child(even) {
+    background-color: #fff;
+}
+
+main section>div:nth-child(odd) {
+    background-color: #ff1;
+}
+
+.nums {
+    font-size: 12em;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Londrina Outline", sans-serif;
+}
+
+.nums div {
+    padding: 80px;
+}
+
+.alphabet {
+    font-size: 8em;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "Playfair Display", serif;
+}
+
+.alphabet .row {
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alphabet .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col span:nth-child(3)::first-letter {
+    color: red;
+}
+
+.img {
+    line-height: 150vh;
+}
+
+.img img {
+    width: 400px;
+}
+
+footer {
+    width: 100%;
+    padding: 80px;
+    text-align: center;
+    color: rgba(245, 75, 100, 1);
+    background-color: #ff1;
+}
+
+.info h1 {
+    padding: 30px 0px;
+}
+
+.info h2 {
+    padding: 15px 0px;
+}
