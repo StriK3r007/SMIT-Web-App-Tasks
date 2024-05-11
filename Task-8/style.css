@@ -13,30 +13,37 @@ header {
     height: 75px;
     font-size: 14px;
 }
+
 .logo {
     margin-right: 40px;
 }
-.logo img{
+
+.logo img {
     max-width: 88px;
 }
+
 .navbar ul {
     /* display: inline; */
     list-style: none;
 }
+
 .navbar ul li {
     display: inline-block;
 }
+
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
     padding: 10px;
     font-size: 16px;
 }
+
 .side-nav {
     display: flex;
     margin-left: 40px;
     font-size: 16px;
 }
+
 /* hero */
 .hero {
     background-image: url(./images/hero.jpg);
@@ -44,38 +51,60 @@ header {
     align-items: center;
     flex-direction: column;
 }
-.hero .mid {display: flex;}
+
+.hero .mid {
+    display: flex;
+    align-items: end;
+}
+
 .hero .box {
     width: 120px;
     height: 120px;
     background-color: #fff;
     text-align: center;
+    text-transform: uppercase;
 }
+
 .hero .box:nth-child(2) {
     background-color: #4d148c;
     color: #fff;
     height: 130px;
 }
+
 /* section #1 */
 .sec-1 {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
+.sec-1-top {
+    margin: 20px 0px 20px 0px;
+}
+.sec-1 h2 {
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: -0.4px;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+
 .sec-1-row {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .sec-1-row img {
     width: 80px;
 }
+
 .sec-1-row div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 40px;
 }
+
 .sec-1-row div span {
     margin: 24px 0px;
 }
