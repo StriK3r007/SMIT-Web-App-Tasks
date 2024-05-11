@@ -83,9 +83,11 @@ header {
     flex-direction: column;
     text-align: center;
 }
+
 .sec-1-top {
     margin: 20px 0px 20px 0px;
 }
+
 .sec-1 h2 {
     font-weight: 200;
     line-height: 1.3;
@@ -115,29 +117,34 @@ header {
 }
 
 /* section #2 */
-.sec-2 div{
+.sec-2 div {
     display: flex;
     align-items: start;
     justify-content: center;
 }
-.sec-2 img{
+
+.sec-2 img {
     width: 470px;
 }
+
 .sec-2 .left {
     margin: 20px 0px 0px 20px;
     width: 25%;
     flex-direction: column;
     align-items: start;
 }
+
 .sec-2 .left h2 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 5px;
 }
+
 .sec-2 .left p {
     font-weight: 200;
 }
-.sec-2 .left button {
+
+.sec-2 .left a {
     background-color: transparent;
     color: #007ab7;
     text-transform: uppercase;
@@ -148,8 +155,10 @@ header {
     font-size: 16px;
     margin-top: 20px;
     transition: all 0.3s ease-in;
+    font-weight: 500;
 }
-.sec-2 .left button:hover {
+
+.sec-2 .left a:hover {
     transform: scale(1.03);
 }
 
@@ -159,23 +168,71 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
 .sec-3 .top {
     margin: 40px 0px;
 }
+
 .sec-3 .top h2 {
     font-weight: 200;
     line-height: 1.3;
     letter-spacing: -0.4px;
     font-size: 2.5rem;
 }
+
 .sec-3 .bottom {
     display: flex;
-    align-items: center;
+    align-items: start;
 }
-.sec-3 .bottom div{
+
+.sec-3 .bottom div {
     width: 300px;
     margin: 20px 15px;
 }
+
 .sec-3 .bottom img {
     width: 100%;
+}
+
+.sec-3 .bottom .content {
+    width: 90%;
+    text-align: left;
+}
+.sec-3 h5 {
+    font-size: 20px !important;
+    color: default !important;
+    font-weight: normal !important;
+    margin-top: 0px !important;
+    margin-bottom: 13px !important;
+}
+.sec-3 .content p {
+    font-weight: 200;
+}
+.sec-3 .content a {
+    color: #007ab7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 30px 0px;
+}
+
+/* section #4 */
+.sec-4 .left {
+    margin-left: 0px !important;
+    margin-right: 20px !important;
+}
+
+/* section #5 */
+.sec-5 .bottom {
+    text-align: center;
+    margin: 20px;
+}
+.sec-5 .bottom img{
+    width: 80px !important;
+}
+.sec-5 .bottom p{
+    font-weight: 200;
+    margin: 10px;
 }
