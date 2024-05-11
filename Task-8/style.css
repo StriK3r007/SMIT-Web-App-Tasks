@@ -136,3 +136,14 @@ header {
 .sec-2 .left p {
     font-weight: 200;
 }
+.sec-2 .left button {
+    background-color: transparent;
+    color: #007ab7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #007ab7;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 20px;
+}
