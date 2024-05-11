@@ -16,6 +16,8 @@ header {
     color: #fff;
     height: 75px;
     font-size: 14px;
+    /* position: fixed; */
+    width: 100%;
 }
 
 .logo {
@@ -131,7 +133,6 @@ header {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 5px;
-    /* letter-spacing: -0.4px; */
 }
 .sec-2 .left p {
     font-weight: 200;
@@ -146,4 +147,35 @@ header {
     padding: 12px;
     font-size: 16px;
     margin-top: 20px;
+    transition: all 0.3s ease-in;
+}
+.sec-2 .left button:hover {
+    transform: scale(1.03);
+}
+
+/* section #3 */
+.sec-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-3 .top {
+    margin: 40px 0px;
+}
+.sec-3 .top h2 {
+    font-weight: 200;
+    line-height: 1.3;
+    letter-spacing: -0.4px;
+    font-size: 2.5rem;
+}
+.sec-3 .bottom {
+    display: flex;
+    align-items: center;
+}
+.sec-3 .bottom div{
+    width: 300px;
+    margin: 20px 15px;
+}
+.sec-3 .bottom img {
+    width: 100%;
 }
