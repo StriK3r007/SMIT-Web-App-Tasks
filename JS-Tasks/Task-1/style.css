@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #ee5427;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.text {
+    text-align: center;
+    width: 80%;
+}
+
+.text h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 2% 0;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+.text p {
+    font-size: clamp(12px, 4vw, 1.3rem);
+    margin: 1% 0;
+}
+
+.script-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+    padding: 1%;
+    min-width: 30%;
+    background-color: #d5d5d5;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.script-input input,
+button {
+    width: 100%;
+    padding: 2%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #ee5427;
+    background-color: transparent;
+}
+
+.script-input button {
+    border: 3px solid #ee5427;
+    width: 30%;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.1s ease-out;
+}
+
+.script-input button:hover {
+    background-color: #ee5427;
+    color: #d5d5d5;
+}
+
+.script-input button:active {
+    border: 3px solid transparent;
+    color: #ee5427;
+    background-color: transparent;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.script-output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+    padding: 1%;
+    min-width: 30%;
+    background-color: #d5d5d5;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.script-output table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ee5427;
+}
+
+.script-output table tr:nth-child(1) td {
+    font-weight: bold;
+}
+
+.script-output table tr td {
+    border: 2px solid #ee5427;
+    padding: 8px;
+}
