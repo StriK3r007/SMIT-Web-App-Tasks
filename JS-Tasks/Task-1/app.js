@@ -19,6 +19,12 @@ function myFunction() {
             }
         }
 
+        if (myNumber % 2 === 0) {
+            document.getElementById("myNum").innerHTML ="The number you entered is even";
+        } else {
+            document.getElementById("myNum").innerHTML = "The number you entered is odd";
+        }
+
         console.log("Numbers are: " + numArray);
         console.log("Even Numbers are: " + even);
         console.log("Odd Numbers are: " + odd);
