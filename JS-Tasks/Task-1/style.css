@@ -107,3 +107,21 @@ button {
     border: 2px solid #ee5427;
     padding: 8px;
 }
+/* media */
+
+/* ! Mobile */
+@media only screen and (max-width: 767px) {
+    main {
+        min-height: 50vh;
+    }
+}
+
+/* ! Tab */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    main {
+        min-height: 50vh;
+    }
+}
+
+/* ! PC */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
