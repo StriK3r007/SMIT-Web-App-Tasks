@@ -1,6 +1,7 @@
 function myFunction() {
     const numArray = [1, 2, 3, 4, 5];
-    const myNumber = document.getElementById("myNumber").value;
+    const myNumber = parseInt(document.getElementById("myNumber").value);
+    // const myNumber = document.getElementById("myNumber").value;
     // const evens = numArray.filter(num => num % 2 === 0);
     
     // if(isNaN(myNumber) || myNumber <=0 ){
