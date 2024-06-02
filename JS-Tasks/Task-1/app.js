@@ -40,9 +40,9 @@ function myFunction() {
             document.getElementById('myNum').style.color = "#000";
         }
 
-        console.log("Numbers are: " + numArray);
-        console.log("Even Numbers are: " + even);
-        console.log("Odd Numbers are: " + odd);
+        console.log(`Numbers are: ${numArray}`);
+        console.log(`Even Numbers are: ${even}`);
+        console.log(`Odd Numbers are: ${odd}`);
 
         console.log(`Number of Envens ${evenCount}`)
         console.log(`Number of Odds ${oddCount}`)
