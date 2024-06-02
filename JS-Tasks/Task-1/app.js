@@ -3,11 +3,6 @@ function myFunction() {
     const myNumber = parseInt(document.getElementById("myNumber").value);
     // const myNumber = document.getElementById("myNumber").value;
     // const evens = numArray.filter(num => num % 2 === 0);
-    
-    // if(isNaN(myNumber) || myNumber <=0 ){
-    //     alert("Please enter a valid number");
-    //     return;
-    // }
 
     if (isNaN(myNumber) || myNumber <= 0) {
         // alert("Please enter a valid number");
