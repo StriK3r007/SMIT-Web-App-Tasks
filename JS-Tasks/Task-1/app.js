@@ -44,6 +44,9 @@ function myFunction() {
         console.log("Even Numbers are: " + even);
         console.log("Odd Numbers are: " + odd);
 
+        console.log(`Number of Envens ${evenCount}`)
+        console.log(`Number of Odds ${oddCount}`)
+
         document.getElementById("mixNumbers").innerHTML = numArray;
         document.getElementById("evenNumbers").innerHTML = even;
         document.getElementById("oddNumbers").innerHTML = odd;
