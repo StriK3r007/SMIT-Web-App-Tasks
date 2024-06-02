@@ -7,7 +7,8 @@ function myFunction() {
     if (isNaN(myNumber) || myNumber <= 0) {
         // alert("Please enter a valid number");
         document.getElementById("myNum").innerHTML ="Please enter a valid number";
-        document.getElementById('myNum').style.color = "#f00";
+        document.getElementById('myNum').style.color = "#fff";
+        document.getElementById('myNum').style.backgroundColor = "#f00";
         
     } else {
         numArray.push(myNumber)
@@ -30,9 +31,11 @@ function myFunction() {
         if (myNumber % 2 === 0) {
             document.getElementById("myNum").innerHTML ="The number you entered is even";
             document.getElementById('myNum').style.color = "#000";
+            document.getElementById('myNum').style.backgroundColor = "#d5d5d5";
         } else {
             document.getElementById("myNum").innerHTML = "The number you entered is odd";
             document.getElementById('myNum').style.color = "#000";
+            document.getElementById('myNum').style.backgroundColor = "#d5d5d5";
         }
 
         console.log(`Numbers are: ${numArray}`);
