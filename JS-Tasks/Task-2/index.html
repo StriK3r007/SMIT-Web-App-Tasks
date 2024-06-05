@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Task-2</title>
+</head>
+<body>
+    <main>
+        <div class="text">
+            <h1>JS Task-2</h1>
+            <p>Printing Pyramids in <b>JavaScript</b></p>
+        </div>
+        <div class="script-input">
+            <input type="text" id="pyBlocks" placeholder="Enter Number of Character">
+            <input type="text" id="pyCharacter" placeholder="Enter Pyramid Character" minlength="1" maxlength="1">
+            <button onclick="pyramidPrint()">Print</button>
+        </div>
+        <div class="script-output">
+            <table>
+                <tr>
+                    <th>Pyramid - 1</th>
+                    <th>Pyramid - 2</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre id="pyramid-1"></pre>
+                    </td>
+                    <td>
+                        <pre id="pyramid-2"></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Pyramid - 3</th>
+                    <th>Pyramid - 4</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre id="pyramid-3"></pre>
+                    </td>
+                    <td>
+                        <pre id="pyramid-4"></pre>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

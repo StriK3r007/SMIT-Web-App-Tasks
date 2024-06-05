@@ -5,7 +5,6 @@ function myFunction() {
     // const evens = numArray.filter(num => num % 2 === 0);
 
     if (isNaN(myNumber) || myNumber <= 0) {
-        // alert("Please enter a valid number");
         document.getElementById("myNum").innerHTML ="Please enter a valid number";
         document.getElementById('myNum').style.color = "#fff";
         document.getElementById('myNum').style.backgroundColor = "#f00";
