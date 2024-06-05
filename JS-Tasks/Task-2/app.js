@@ -1,3 +1,4 @@
+// Pyramid 1
 function pattern1(userInput, pyCharacter) {
     let pattern = '';
     for (i = 0; i < userInput; i++) {
@@ -11,6 +12,7 @@ function pattern1(userInput, pyCharacter) {
     document.getElementById('pyramid-1').innerHTML = pattern;
 }
 
+// Pyramid 2
 function pattern2(userInput, pyCharacter) {
     let pattern = '';
     for (i = 0; i < userInput; i++) {
@@ -26,6 +28,7 @@ function pattern2(userInput, pyCharacter) {
     document.getElementById('pyramid-2').innerHTML = pattern;
 }
 
+// Pyramid 3
 function pattern3(userInput, pyCharacter) {
     let pattern = '';
     for (i = 0; i < userInput; i++) {
@@ -42,6 +45,7 @@ function pattern3(userInput, pyCharacter) {
     document.getElementById('pyramid-3').innerHTML = pattern;
 }
 
+// Pyramid 4
 function pattern4(userInput, pyCharacter) {
     let pattern = '';
     for (i = 0; i < userInput; i++) {
