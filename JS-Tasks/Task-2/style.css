@@ -67,7 +67,6 @@ button {
 .script-input button {
     margin-top: 12px;
     border: 3px solid #ee5427;
-    width: 30%;
     cursor: pointer;
     border-radius: 4px;
     transition: all 0.1s ease-out;
