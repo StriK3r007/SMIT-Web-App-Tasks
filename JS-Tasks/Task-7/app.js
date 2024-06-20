@@ -7,9 +7,8 @@ function dClock() {
     var day = date.getDay();
     var month = date.getMonth();
     var year = date.getFullYear();
-
     var ampm = "AM";
-    
+
     if (hour === 0) {
         hour = 12;
     }
@@ -27,7 +26,7 @@ function dClock() {
         dayDate = "0" + dayDate;
     }
     if (month < 10) {
-        month = "0" + (month+1);
+        month = "0" + (month + 1);
     }
     if (day === 1) {
         day = "Monday";
@@ -51,11 +50,13 @@ function dClock() {
         day = "Sunday";
     }
 
+    // Clock
     document.getElementById("hour").innerHTML = hour;
     document.getElementById("minute").innerHTML = minute;
     document.getElementById("second").innerHTML = second;
     document.getElementById("ampm").innerHTML = ampm;
 
+    // Date
     document.getElementById("date").innerHTML = dayDate;
     document.getElementById("month").innerHTML = month;
     document.getElementById("year").innerHTML = year;
