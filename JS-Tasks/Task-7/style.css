@@ -83,12 +83,12 @@ main {
 /* media */
 
 /* ! Mobile */
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 660px) {
     .script-output {
         width: 70%;
     }
     .script-output .date {
-        font-size: clamp(16px, 2vw, 1.3rem);
+        font-size: clamp(16px, 2vw, 1.2rem);
     }
     .clock-text {
         font-size: clamp(8px, 2vw, .8rem);
