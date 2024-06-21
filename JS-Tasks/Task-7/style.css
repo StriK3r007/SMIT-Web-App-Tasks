@@ -70,7 +70,7 @@ main {
     color: #7a7a7a;
 }
 .script-output .date {
-    font-size: clamp(8px, 2vw, 1.2rem);
+    font-size: clamp(12px, 2vw, 1.2rem);
     margin: 1% 0;
 }
 .script-output .date span{
@@ -83,6 +83,19 @@ main {
 /* media */
 
 /* ! Mobile */
+@media only screen and (max-width: 570px) {
+    .script-output {
+        width: 70%;
+    }
+    .script-output .date {
+        font-size: clamp(16px, 2vw, 1.3rem);
+    }
+    .clock-text {
+        font-size: clamp(8px, 2vw, .8rem);
+        font-weight: 600;
+        color: #7a7a7a;
+    }
+}
 @media only screen and (max-width: 767px) {
     main {
         min-height: 50vh;
