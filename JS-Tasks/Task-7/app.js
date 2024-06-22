@@ -16,6 +16,9 @@ function dClock() {
         hour = hour - 12;
         ampm = "PM";
     }
+    if (hour < 10) {
+        hour = "0" + hour;
+    }
     if (minute < 10) {
         minute = "0" + minute;
     }
@@ -28,26 +31,32 @@ function dClock() {
     if (month < 10) {
         month = "0" + (month + 1);
     }
-    if (day === 1) {
-        day = "Monday";
-    }
-    if (day === 2) {
-        day = "Tuesday";
-    }
-    if (day === 3) {
-        day = "Wednesday";
-    }
-    if (day === 4) {
-        day = "Thursday";
-    }
-    if (day === 5) {
-        day = "Friday";
-    }
-    if (day === 6) {
-        day = "Saturday";
-    }
-    if (day === 0) {
-        day = "Sunday";
+
+    switch (day) {
+        case 1:
+            day = "Monday";
+            break;
+        case 2:
+            day = "Tuesday";
+            break;
+        case 3:
+            day = "Wednesday";
+            break;
+        case 4:
+            day = "Thursday";
+            break;
+        case 5:
+            day = "Friday";
+            break;
+        case 6:
+            day = "Saturday";
+            break;
+        case 0:
+            day = "Sunday";
+            break;
+        default:
+            day = "Sunday";
+            break;
     }
 
     // Clock
