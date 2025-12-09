@@ -44,7 +44,7 @@ main {
     align-items: center;
     flex-direction: column;
     margin: 2% 0;
-    padding: 1%;
+    padding: 2%;
     min-width: 30%;
     background-color: #d5d5d5;
     border-radius: 4px;
@@ -60,7 +60,7 @@ main {
     border: 2px solid #ee5427;
     border-radius: 4px;
     transition: all 0.3s ease;
-    width: 60%;
+    width: 80%;
     text-align: center;
     background-color: #d5d5d5;
 }
